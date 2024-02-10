@@ -67,7 +67,7 @@ focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg shad
     <div className='flex justify-center'>
       <div>
         <img src={img1} className='m-auto' />
-        <h2 className='flex items-center justify-center font-bold text-2xl'  >Okay!! Yayyy</h2>
+        <h2 className='flex items-center justify-center font-bold text-2xl'  >Okay!! Yayyyy</h2>
       </div>
     </div>
   );
