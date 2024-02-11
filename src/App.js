@@ -10,7 +10,7 @@ function App() {
   const btnRef = useRef();
   const threshHoldClick = 10;
   let params = new URLSearchParams(document.location.search);
-let name = params.get("name");
+  let name = params.get("name");
   const no_messages = [
     'No',
     'Ouch',
@@ -45,7 +45,7 @@ let name = params.get("name");
         <div>
 
           <img src={img2} className='m-auto' />
-          <h2 className='flex items-center justify-center font-bold text-2xl'  >{name? name+', ' : ''}Will you be my Valentine?</h2>
+          <h2 className='flex items-center justify-center font-bold text-2xl'  >{name ? name + ', ' : ''}Will you be my Valentine?</h2>
           <div className='flex items-center justify-center font-bold mt-5' >
 
             <button type="button" class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 
